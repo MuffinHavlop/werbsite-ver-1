@@ -1,0 +1,89 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+body{
+    background-image: url("big-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: rgb(92, 135, 252);
+    font-size: 15px;
+    padding: 5px;
+    border-style:hidden;
+    font-size: larger;
+    height: 35px;
+    text-align: right;
+    margin-top: -55px;
+}
+#navitems{
+    margin-top: 5px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(70, 69, 69);
+}
+#home{
+    color:rgb(0, 0, 0);
+}
+#big-img{
+    object-fit: fill;
+}
+.head{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.top-right{
+    position: absolute;
+    top: 50px;
+    text-align: right;
+    right: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.graphics-card-title{
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+}
+.cpu-title{
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    
+}
+#border{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    margin-left: 750px;
+}
+#cpu{
+    position: relative;
+}
+#cpu-in{
+    position: relative;
+    margin-top: -400px;
+    margin-left: 825px;
+}
